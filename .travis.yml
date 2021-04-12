@@ -2,7 +2,5 @@ language: php
 php:
   - 8.0.2
 dist: focal
-composer:
-  composer install
-phpunit:
-  phpunit --coverage-html CodeCoverage ---configuration ./php/algorithmes/Tests/phpunit.xml
+before_script: composer update
+script: phpunit --coverage-html CodeCoverage ---configuration ./php/algorithmes/Tests/phpunit.xml
