@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/PascalL7/MyProjects.svg?token=juxX7LynjhQxzRBxYzps&branch=main)](https://travis-ci.com/PascalL7/MyProjects)
+
 _creator name_ : _**PascalL7**_
 
 _document version_ :  0.1
