@@ -1,0 +1,14 @@
+{
+  "require-dev": {
+    "sebastian/code-unit": "dev-master",
+    "phpunit/phpunit": "dev-master",
+    "phpunit/php-code-coverage": "dev-master",
+    "sebastian/version": "dev-master",
+    "sebastian/lines-of-code": "dev-master",
+    "sebastian/complexity": "dev-master",
+    "phpmd/phpmd": "dev-master",
+    "squizlabs/php_codesniffer": "dev-master",
+    "friendsofphp/php-cs-fixer": "dev-master",
+    "phpstan/phpstan": "dev-master"
+  }
+}

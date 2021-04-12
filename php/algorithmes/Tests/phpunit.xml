@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://phpunit.readthedocs.io/en/latest/configuration.html -->
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd" backupGlobals="false" colors="true" forceCoversAnnotation="true" timeoutForSmallTests="1" timeoutForMediumTests="10" timeoutForLargeTests="60" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" cacheDirectory=".phpunit.cache">
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">../Liste-chainee</directory>
+    </include>
+    <exclude>
+      <directory suffix="Test.php">../Tests</directory>
+    </exclude>
+  </coverage>
+  <testsuites>
+    <testsuite name="Algorithms Test Suite">
+      <directory/>
+      <file>SimpleLinkedListTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
