@@ -3,4 +3,4 @@ php:
   - 8.0.2
 dist: focal
 composer: composer install
-phpunit: phpunit --coverage-html CodeCoverage
+phpunit: phpunit --coverage-html CodeCoverage -c ./MyProjects/php/algorithmes/Tests/phpunit.xml
