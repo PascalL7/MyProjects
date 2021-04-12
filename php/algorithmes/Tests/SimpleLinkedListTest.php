@@ -16,7 +16,8 @@ namespace SimpleLinkedList;
 use Exception;
 use PHPUnit\Framework\TestCase;
 
-require_once "../Liste-chainee/PremiereListeChainee/SimpleLinkedList.php";
+//require_once "../Liste-chainee/PremiereListeChainee/SimpleLinkedList.php";
+require_once "/home/travis/build/PascalL7/MyProjects/php/algorithmes/Liste-chainee/PremiereListeChainee/SimpleLinkedList.php";
 
 class SimpleLinkedListTest extends TestCase
 {
